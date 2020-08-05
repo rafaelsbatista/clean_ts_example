@@ -1,5 +1,6 @@
+import { Readable } from 'stream'
 import { JsonStructure } from "entities/json/jsonStructure";
 
 export interface Source {
-    getReadStream: () => ReadableStream<JsonStructure>
+    getReadStream: () => Readable
 }

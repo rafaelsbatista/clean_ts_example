@@ -1,4 +1,3 @@
-import { JsonObjectIterator } from "entities/iterator/jsonObjectIterator";
 import { Procedure } from "entities/medicalProcedure/procedure";
 import { JsonStructure } from "entities/json/jsonStructure";
 
